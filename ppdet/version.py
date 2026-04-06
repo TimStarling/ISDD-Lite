@@ -1,0 +1,4 @@
+# THIS FILE IS GENERATED FROM PADDLEPADDLE SETUP.PY
+#
+full_version    = '2.2.0'
+commit          = '6220fd3a860e32596e6b83a9583a9ee58ef7424d'

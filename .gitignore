@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Training outputs
+output/*
+!output/ssd_mobilenet_v1_qat/
+output/ssd_mobilenet_v1_qat/*
+!output/ssd_mobilenet_v1_qat/best_model.pdparams
+
+output_inference/*
+!output_inference/ssd_mobilenet_v1_qat/
+output_inference/ssd_mobilenet_v1_qat/*
+!output_inference/ssd_mobilenet_v1_qat/model.pdmodel
+!output_inference/ssd_mobilenet_v1_qat/model.pdiparams
+!output_inference/ssd_mobilenet_v1_qat/model.pdiparams.info
+!output_inference/ssd_mobilenet_v1_qat/infer_cfg.yml
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
