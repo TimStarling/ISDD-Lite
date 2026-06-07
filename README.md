@@ -1,3 +1,9 @@
+<div align="right">
+
+[中文](README.md) | [English](README_EN.md)
+
+</div>
+
 # ISDD-Lite
 
 `ISDD-Lite` 是一个基于 PaddleDetection 的轻量化工业缺陷检测项目，当前提供的是 `SSD-MobileNetV1 + QAT` 模型，适合在边缘设备、嵌入式平台和资源受限环境中部署。项目可用于铝片表面缺陷识别、工业视觉质检、自动化巡检等场景，也可作为机器人与人工智能大赛、集成电路创新创业大赛海云捷讯/皓耀赛道的基础算法项目。
